@@ -292,8 +292,8 @@ a:hover {
 }
 
 .navbar .logo-image img {
-    width: 124px;
-	height: 32px;
+    width: 150px;
+	height: 60px;
 }
 
 .navbar .logo-text {
@@ -647,7 +647,7 @@ a:hover {
 }
 
 .cards-1 .list-unstyled .fas {
-	color: #003F63;
+	color: #d2d046;
 	font-size: 0.375rem;
 	line-height: 1.625rem;
 }
@@ -686,7 +686,7 @@ a:hover {
 .cards-1 .card-icon .far,
 .cards-1 .card-icon .fas {
 	margin-left: 2rem;
-	color: #003F63;
+	color: #d2d046;
 	font-size: 3.75rem;
 }
 
@@ -778,6 +778,48 @@ a:hover {
 
 .cards-2 .card-body {
 	padding: 0;
+}
+
+
+/************************/
+/*     Team members     */
+/************************/
+.about{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.section-title{
+	
+	padding-bottom: 20px;
+}
+
+.member{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	padding: 20px;
+	flex-direction: row;
+	box-shadow: 0px 2px 15px rgb(85 98 112 / 10%);
+}
+
+.member .pic img{
+	width: 60%;
+	height: 60%;
+	
+	margin-bottom: 20px;
+}
+
+.member .member-info{
+	padding-left: 20px;
+}
+
+.member .pic .member-name{
+	font-weight: bold;
+}
+
+.member .pic .member-title{
+	font-size: smaller;
 }
 
 
@@ -1050,6 +1092,17 @@ a:hover {
 	.header .h1-large {
 		margin-top:4.5rem;
 	}
+
+	.member{
+		margin-top: 20px;
+	}
+
+	.member .pic img{
+		width: 80%;
+		height: 50%;
+	}
+
+
 }
 
 /* Min-width 768px */
