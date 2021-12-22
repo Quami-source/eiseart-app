@@ -841,6 +841,10 @@ a:hover {
 	display: none;
 }
 
+#akazue-more{
+	display: none;
+}
+
 .member .pic .member-name{
 	font-weight: bold;
 	font-size: 20px;

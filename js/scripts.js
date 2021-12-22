@@ -53,6 +53,23 @@ function jonasFunction() {
 
 }
 
+function akazueFunction() {
+	var dots = document.getElementById("akazue-dots");
+	var moreText = document.getElementById("akazue-more");
+	var btnText = document.getElementById("akazueBtn");
+  
+	if (dots.style.display === "none") {
+	  dots.style.display = "inline";
+	  btnText.innerHTML = "More"; 
+	  moreText.style.display = "none";
+	} else {
+	  dots.style.display = "none";
+	  btnText.innerHTML = "Less"; 
+	  moreText.style.display = "inline";
+	}
+
+}
+
 // Navbar on mobile
 let elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle)");
 
