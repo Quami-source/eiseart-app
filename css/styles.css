@@ -605,7 +605,7 @@ a:hover {
 }
 
 .basic-2 .image-container {
-	margin-bottom: 5rem;
+	margin-top: 5rem;
 }
 
 .basic-2 h2 {
@@ -1008,12 +1008,12 @@ a:hover {
 }
 
 .footer .footer-col.third .fa-stack .fa-stack-1x {
-	color: #4555d2;
+	color: #d2d046;
 	transition: all 0.2s ease;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-	color: #4555d2;
+	color: #d2d046;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -1125,6 +1125,11 @@ a:hover {
 @media (max-width:768px) {
 	.header .h1-large {
 		margin-top:4.5rem;
+	}
+
+	#details .text-container h2{
+		margin-top: 50px;
+		margin-bottom: 30px;
 	}
 
 	.member{
@@ -1336,6 +1341,7 @@ a:hover {
 
 
 	/* Details 1 */
+	
 	.basic-2 .decoration-star {
 		top: 260px;
 		left: -150px;
