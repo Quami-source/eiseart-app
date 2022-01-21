@@ -70,6 +70,16 @@ function akazueFunction() {
 
 }
 
+function sendEmail(){
+	var subject = document.querySelector('input').value
+	//var email = document.getElementById("email")
+	var body = document.querySelector('textarea').value
+	//var sendEmail = document.getElementById("sendEmail").innerText
+	//console.log(body)
+
+	window.open(`mailto:info@esaiertrisorsa.com?subject=${subject}&body=${body}`)
+}
+
 // Navbar on mobile
 let elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle)");
 

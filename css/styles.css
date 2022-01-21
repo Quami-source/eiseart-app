@@ -822,9 +822,11 @@ a:hover {
 }
 
 .member .pic img{
+	float:left;
 	transition: all 1.5s ease;
-	width: 40%;
-	height: 40%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
 	margin-right: 20px;
 	margin-bottom: 20px;
 }

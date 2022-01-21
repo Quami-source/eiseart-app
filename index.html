@@ -410,8 +410,8 @@
                             <img class="img-fluid" src="images/slide2.jpg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">MTN new built installations(Cabling and Labling)</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <a class="blue no-line" href="#">...Read more</a></p>
+                            <h5 class="card-title">New Built Installation</h5>
+                            <p class="card-text">This shows the cables in the cabinet that are well arranged and labeled.</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -422,8 +422,8 @@
                             <img class="img-fluid" src="images/slide3.jpg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">MTN RAN Modernization(Fibre Installation)</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <a class="blue no-line" href="#">...Read more</a></p>
+                            <h5 class="card-title">Fibre Connection</h5>
+                            <p class="card-text">Fibre cables are installed in the cabinet sequentially following the minimum bend radius. </p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -434,8 +434,8 @@
                             <img class="img-fluid" src="images/slide4.jpg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">MTN Micro-wave Installation</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <a class="blue no-line" href="#">...Read more</a></p>
+                            <h5 class="card-title">Microwave Installationn</h5>
+                            <p class="card-text">Installation of a microwave link to achieve optimal antenna alignment installation from the far end. </p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -447,7 +447,7 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Aerial Fibre Installation</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <a class="blue no-line" href="#">...Read more</a></p>
+                            <p class="card-text">Handling of Aerial Fibre cable in preparation for the home connection. </a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -458,8 +458,8 @@
                             <img class="img-fluid" src="images/slide1.jpg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">MTN Site cleaning</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <a class="blue no-line" href="#">...Read more</a></p>
+                            <h5 class="card-title">Site cleaning</h5>
+                            <p class="card-text">Cleaning of the site after the job has been completed. </a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -471,7 +471,7 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Civil works</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <a class="blue no-line" href="sites/article.html">...See more</a></p>
+                            <p class="card-text">Preparing formworks and iron bending for the foundation casting of the camera pole <a class="blue no-line" href="sites/article.html">...See more</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -494,7 +494,7 @@
                 <div class="col-lg-6">
                     <div class="member">
                         <div class="pic">
-                            <img src="images/isaiah2.jpg" class="rounded"" alt="member" />
+                            <img src="images/isaiah2.jpg"  class="rounded image-fluid" alt="member" />
                             
                             <div class="info">
                                 <div class="member-name">Isaiah Oluwafemi Odufala</div>
@@ -652,15 +652,13 @@
                         <h2>Contact us using the following form</h2>
 
                         <!-- Contact Form -->
-                        <form>
+                        <form id="sendEmail" onsubmit="sendEmail()" >
                             <div class="form-group">
-                                <input type="text" class="form-control-input" placeholder="Name" required>
+                                <input type="text" id="subject" class="form-control-input" placeholder="Subject" required>
                             </div>
+                            
                             <div class="form-group">
-                                <input type="email" class="form-control-input" placeholder="Email" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control-textarea" placeholder="Message" required></textarea>
+                                <textarea id="body" class="form-control-textarea" placeholder="Message" required></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="form-control-submit-button">Submit</button>
@@ -688,36 +686,29 @@
                         <h6>Links</h6>
                         <ul class="list-unstyled li-space-lg p-small">
                             <li>Important: <a href="#">Terms & Conditions</a>, <a href="#">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a href="#">Home</a>, <a href="#">Details</a>, <a href="#">Services</a>, <a href="#">Contact</a></li>
                         </ul>
-                    </div> <!-- end of footer-col -->
+                    </div> 
                     <div class="footer-col third">
                         <span class="fa-stack">
-                            <a href="#">
+                            <a href="https://web.facebook.com/esaiert">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#">
+                            <a href="https://twitter.com/esaiert">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/esaiert-risorsa-engineering-ltd-bb1727227/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
-                            <a href="#">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+                    
+                        <p class="p-small">We would love to hear from you <a href="mailto:info@esaiertrisorsa.com"><strong>info@esaiertrisorsa.com</strong></a></p>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
