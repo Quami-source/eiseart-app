@@ -135,7 +135,7 @@ if (dropdownCheck !== null) {
 /* Card Slider - Swiper */
 var cardSlider = new Swiper('.card-slider', {
 	autoplay: {
-		delay: 4000,
+		delay: 8000,
 		disableOnInteraction: false
 	},
 	loop: true,
