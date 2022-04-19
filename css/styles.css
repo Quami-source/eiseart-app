@@ -1110,6 +1110,10 @@ a:hover {
 /*************************/	
 
 @media (max-width:768px) {
+	.navbar .logo-image img {
+		width: 89px;
+		height: 44px;
+	}
 	.header .h1-large {
 		margin-top:4.5rem;
 	}
