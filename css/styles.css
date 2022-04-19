@@ -665,11 +665,14 @@ a:hover {
 	border-radius: 50%;
 	background-color: #ffffff;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .cards-1 .card-icon .far,
 .cards-1 .card-icon .fas {
-	margin-left: 2rem;
+	
 	color: #d2d046;
 	font-size: 3.75rem;
 }
@@ -1133,7 +1136,30 @@ a:hover {
 		padding-top: 20px;
 	}
 
+	.cards-1{
+		padding-top: 4.5rem;
+		
+	}
 
+	h2{
+		text-align: center;
+	}
+
+	.slider-1{
+		padding-bottom: 4.75rem;
+	}
+
+	.footer{
+		padding-top: 4.5rem;
+
+	}
+
+	.footer .container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 50px;
+	}
 }
 
 /* Min-width 768px */
@@ -1197,6 +1223,8 @@ a:hover {
 	.ex-basic-1 .text-box {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
+
+	
 	/* end of extra pages */
 }
 /* end of min-width 768px */

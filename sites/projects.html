@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+    <title>Esaiert Risorsa | Projects</title>
+    <!-- Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,600&display=swap" rel="stylesheet">
@@ -35,7 +36,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link " href="../sites/projects.html">Projects</a>
+                        <a class="nav-link active" href="../sites/projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../sites/about.html">About us</a>
@@ -48,42 +49,95 @@
             </div> 
         </div> 
     </nav> 
-    <section>
-        <!-- Contact -->
-    <div id="contact" class="form-1">
-        <img class="decoration-star" src="../images/decoration-star.svg" alt="alternative">
-        <img class="decoration-star-2" src="../images/decoration-star.svg" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="../images/enginer1.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Contact us using the following form</h2>
-
-                        <!-- Contact Form -->
-                        <form id="sendEmail" onsubmit="sendEmail()" >
-                            <div class="form-group">
-                                <input type="text" id="subject" class="form-control-input" placeholder="Subject" required>
+    <section style="margin-top: 90px;">
+        <div id="projects" class="cards-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">Projects executed</h2>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-12">
+    
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="inner">
+                                <img class="img-fluid" src="../images/slide2.jpg" alt="alternative">
                             </div>
-                            
-                            <div class="form-group">
-                                <textarea id="body" class="form-control-textarea" placeholder="Message" required></textarea>
+                            <div class="card-body">
+                                <h5 class="card-title">New Built Installation</h5>
+                                <p class="card-text">This shows the cables in the cabinet that are well arranged and labeled.</p>
                             </div>
-                            <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">Submit</button>
+                        </div>
+                        <!-- end of card -->
+    
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="inner">
+                                <img class="img-fluid" src="../images/slide3.jpg" alt="alternative">
                             </div>
-                        </form>
-                        <!-- end of contact form -->
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
-    </section><div class="footer bg-gray">
+                            <div class="card-body">
+                                <h5 class="card-title">Fibre Connection</h5>
+                                <p class="card-text">Fibre cables are installed in the cabinet sequentially following the minimum bend radius. </p>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+    
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="inner">
+                                <img class="img-fluid" src="../images/slide4.jpg" alt="alternative">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Microwave Installationn</h5>
+                                <p class="card-text">Installation of a microwave link to achieve optimal antenna alignment installation from the far end. </p>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+    
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="inner">
+                                <img class="img-fluid" src="../images/slide6.jpg" alt="alternative">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Aerial Fibre Installation</h5>
+                                <p class="card-text">Handling of Aerial Fibre cable in preparation for the home connection. </a></p>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+    
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="inner">
+                                <img class="img-fluid" src="../images/slide1.jpg" alt="alternative">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Site cleaning</h5>
+                                <p class="card-text">Cleaning of the site after the job has been completed. </a></p>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+    
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="inner">
+                                <img class="img-fluid" src="../images/people1.jpg" alt="alternative">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Civil works</h5>
+                                <p class="card-text">Preparing formworks and iron bending for the foundation casting of the camera pole <a class="blue no-line" href="sites/article.html">...See more</a></p>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+    
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of cards-2 -->
+    </section>
+    <div class="footer bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -127,6 +181,5 @@
     <script src="../js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="../js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
     <script src="../js/scripts.js"></script> <!-- Custom scripts -->
-
 </body>
 </html>
