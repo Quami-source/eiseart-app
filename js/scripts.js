@@ -71,13 +71,16 @@ function akazueFunction() {
 }
 
 function sendEmail(){
-	var subject = document.querySelector('input').value
-	//var email = document.getElementById("email")
+	
+	var fullname = document.getElementById('fullname').value
+	var number = document.getElementById('phone').value
+	var email = document.getElementById("email").value
 	var body = document.querySelector('textarea').value
+	var content = body + "\n" + "\n" + fullname + "\n" + number + "\n" + email
 	//var sendEmail = document.getElementById("sendEmail").innerText
 	//console.log(body)
-
-	window.open(`mailto:info@esaiertrisorsa.com?subject=${subject}&body=${body}`)
+	//alert(content)
+	window.open(`mailto:info@esaiertrisorsa.com?subject=Contact us&body=${content}`)
 }
 
 // Navbar on mobile

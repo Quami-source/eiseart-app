@@ -1149,6 +1149,15 @@ a:hover {
 		text-align: center;
 	}
 
+	.clients .row{
+		flex-direction: column;
+	}
+
+	.clients img{
+		max-width: 100%;
+		padding-bottom: 60px;
+	}
+
 	.slider-1{
 		padding-bottom: 4.75rem;
 	}
@@ -1376,6 +1385,26 @@ a:hover {
 	}
 	/* end of services */
 
+	/* clients */
+	#clients{
+		padding: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.clients img {
+		max-width: 80%;
+		transition: all 0.4s ease-in-out;
+		display: inline-block;
+		padding: 15px 0;
+		filter: grayscale(100);
+	}
+
+	.clients img:hover{
+		filter: grayscale(0);
+		max-width: 100%;
+	}
 
 	/* Details 2 */
 	.basic-3 .decoration-star {
@@ -1447,14 +1476,14 @@ a:hover {
 	
 	.footer .footer-col.second {
 		display: inline-block;
-		width: 320px;
+		width: 224px;
 		margin-right: 1.75rem;
 		vertical-align: top;
 	}
 	
 	.footer .footer-col.third {
 		display: inline-block;
-		width: 224px;
+		width: 320px;
 		text-align: right;
 		vertical-align: top;
 	}
