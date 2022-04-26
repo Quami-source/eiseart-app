@@ -1469,22 +1469,22 @@ a:hover {
 
 	.footer .footer-col.first {
 		display: inline-block;
-		width: 320px;
-		margin-right: 1.75rem;
+		width: 224px;
+		margin-right: 1.45rem;
 		vertical-align: top;
 	}
 	
 	.footer .footer-col.second {
 		display: inline-block;
 		width: 224px;
-		margin-right: 1.75rem;
+		
 		vertical-align: top;
 	}
 	
 	.footer .footer-col.third {
 		display: inline-block;
 		width: 320px;
-		text-align: right;
+
 		vertical-align: top;
 	}
 
